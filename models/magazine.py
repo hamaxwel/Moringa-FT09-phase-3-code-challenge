@@ -1,8 +1,8 @@
 class Magazine:
-    def __init__(self, id, name, category):
+    def __init__(self, id, title, category):
         self.id = id
-        self.name = name
+        self.title = title
         self.category = category
 
     def __repr__(self):
-        return f'<Magazine {self.name}>'
+        return f'<Magazine {self.title}>'
